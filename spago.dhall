@@ -1,5 +1,6 @@
 { name = "my-project"
-, dependencies = [ "console", "effect", "psci-support" ]
+, dependencies =
+  [ "argonaut", "console", "effect", "ordered-collections", "psci-support" ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]
 }
